@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Workspaces/AndroidstudioProjects/imsdroid/iMSDroid/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string-array name="stringarray_codes">
+        <item>Italy +39</item>
+        <item>France +33</item>
+    </string-array>
+    <string name="day_today">Aujourdh\'ui</string>
+    <string name="day_yesterday">Hier</string>
+</resources>

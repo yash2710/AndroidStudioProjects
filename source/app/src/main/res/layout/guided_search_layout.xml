@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="fill_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/flipkartlogo" android:paddingLeft="6.0dip" android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo" android:layout_centerVertical="true" />
+    <include android:layout_gravity="center_vertical" android:id="@id/search_result_cart_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" layout="@layout/cart_with_count" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/edit_search" android:tag="edit_guided_search_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="20.0dip" android:layout_toLeftOf="@id/search_result_cart_icon" android:layout_toRightOf="@id/flipkartlogo" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_search" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="bottom" android:layout_width="25.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/search_icon" android:layout_weight="10.0" />
+            <com.flipkart.android.customwidget.ActionBarSearchTagWidget android:gravity="left|center" android:id="@id/guided_search_bar" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginRight="5.0dip" android:layout_weight="90.0" />
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/text_input" android:scaleType="fitXY" />
+    </LinearLayout>
+</RelativeLayout>

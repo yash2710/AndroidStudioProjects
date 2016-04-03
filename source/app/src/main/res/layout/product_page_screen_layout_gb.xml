@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/prod_page_ll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/null_result_pluggable_view" />
+    </LinearLayout>
+    <include layout="@layout/product_page_bottom_bar" />
+</RelativeLayout>

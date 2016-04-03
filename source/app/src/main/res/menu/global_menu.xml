@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/home_page_more" android:id="@id/mainMenu" android:orderInCategory="300" android:title="More" app:showAsAction="always">
+        <menu>
+            <item android:icon="@drawable/usericon" android:id="@id/menu_login" android:orderInCategory="200" android:title="Login" app:showAsAction="never" />
+            <item android:icon="@drawable/usericon" android:id="@id/menu_user_details" android:orderInCategory="200" android:title="guest" app:showAsAction="never" />
+            <item android:icon="@drawable/wishlits" android:id="@id/menu_wishlist" android:orderInCategory="400" android:title="WishList" app:showAsAction="never" />
+            <item android:icon="@drawable/delivery" android:id="@id/menu_my_orders" android:orderInCategory="400" android:title="My Orders" app:showAsAction="never" />
+            <item android:icon="@drawable/delivery" android:id="@id/menu_track_order" android:orderInCategory="400" android:title="Track Order" app:showAsAction="never" />
+            <item android:icon="@drawable/address" android:id="@id/menu_address" android:orderInCategory="400" android:title="My Addresses" app:showAsAction="never" />
+            <item android:icon="@drawable/rate_app" android:id="@id/menu_rate_app" android:orderInCategory="400" android:title="Rate the app" app:showAsAction="never" />
+            <item android:icon="@drawable/share_app" android:id="@id/menu_share_app" android:orderInCategory="400" android:title="Share the app" app:showAsAction="never" />
+            <item android:icon="@drawable/contact" android:id="@id/menu_contact_us" android:orderInCategory="400" android:title="Contact Us" app:showAsAction="never" />
+            <item android:icon="@drawable/policies" android:id="@id/menu_policies" android:orderInCategory="400" android:title="Policies" app:showAsAction="never" />
+            <item android:icon="@drawable/ff_dropdown" android:id="@id/flipkart_first" android:orderInCategory="400" android:title="Flipkart First" app:showAsAction="never" />
+            <item android:icon="@drawable/logout" android:id="@id/menu_logout" android:orderInCategory="400" android:title="Logout" app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

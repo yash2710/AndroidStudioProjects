@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="edit_text_normal">false</item>
+    <item type="drawable" name="edit_text_pressed">false</item>
+    <item type="drawable" name="ff_logo_pp">false</item>
+    <item type="drawable" name="ic_launcher">false</item>
+    <item type="drawable" name="leftshadow">false</item>
+    <item type="drawable" name="secondory_shadow">false</item>
+</resources>

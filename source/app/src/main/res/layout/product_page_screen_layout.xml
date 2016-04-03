@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.simonvt.menudrawer.LeftDrawer android:orientation="vertical" android:id="@id/productPageDrawer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mdMenuSize="168.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="166.0dip" android:layout_height="fill_parent">
+        <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="13.0sp" android:textColor="@color/title" android:ellipsize="end" android:gravity="left" android:id="@id/title_product_page_slider_product_list" android:paddingLeft="8.0dip" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="Casual Shirts" android:singleLine="true" />
+        <View android:gravity="center" android:id="@id/title_divider" android:background="@drawable/shadow" android:padding="10.0dip" android:layout_width="140.0dip" android:layout_height="2.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="9.0dip" />
+        <ListView android:id="@id/product_page_slider_product_list" android:background="@*android:color/transparent" android:scrollbars="none" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:divider="@*android:color/transparent" android:dividerHeight="8.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip">
+            <include layout="@layout/null_result_pluggable_view" />
+            <com.flipkart.android.customviews.ViewPagerFixed android:id="@id/product_page_view_pager" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" />
+        </LinearLayout>
+        <ImageButton android:id="@id/product_page_pullout" android:background="#00000000" android:layout_width="24.0dip" android:layout_height="40.0dip" android:layout_marginTop="110.0dip" android:src="@drawable/product_pullout" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+        <include layout="@layout/product_page_bottom_bar" />
+    </RelativeLayout>
+</net.simonvt.menudrawer.LeftDrawer>

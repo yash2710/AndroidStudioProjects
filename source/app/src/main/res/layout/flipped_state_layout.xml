@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/white_bg" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="right" android:id="@id/flipped_cross_button" android:tag="flipped_cross" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wishlist_normal" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/flipped_addToCart_button" android:tag="flipped_addToCart" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add_to_cart" />
+        <com.flipkart.android.customviews.CustomRobotoMediumTextView android:textSize="14.0dip" android:textColor="@color/black" android:layout_gravity="center" android:id="@id/flipped_addToCart_text" android:paddingTop="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add to Cart" />
+    </LinearLayout>
+    <Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/flipped_buy_button" android:tag="flipped_buyNow" android:background="@drawable/button_orange_selector" android:clickable="true" android:layout_width="180.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:text="BUY NOW" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/flipped_share_button" android:tag="flipped_share" android:background="@color/grey_bg" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share" />
+        <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="14.0dip" android:textColor="@color/share_font" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Share" />
+    </LinearLayout>
+</LinearLayout>

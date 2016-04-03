@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/product_page_price_layout" android:background="@*android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/flipkart_price" android:layout_gravity="center_vertical" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" />
+        <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="13.0sp" android:textColor="@color/product_mrp_and_discount" android:layout_gravity="center_vertical" android:id="@id/mrp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+        <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="13.0sp" android:textColor="@color/product_mrp_and_discount" android:layout_gravity="center_vertical" android:id="@id/discount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+    </LinearLayout>
+    <View android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

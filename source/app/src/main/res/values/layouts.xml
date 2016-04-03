@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="abc_action_mode_bar">false</item>
+    <item type="layout" name="activity_test">false</item>
+    <item type="layout" name="big_billion">false</item>
+    <item type="layout" name="category_side_pane_drawer">false</item>
+    <item type="layout" name="custom_toast_layout">false</item>
+    <item type="layout" name="drop_down_layout">false</item>
+    <item type="layout" name="filter_button_layout">false</item>
+    <item type="layout" name="filters_top_drawer">false</item>
+    <item type="layout" name="fragment_test">false</item>
+    <item type="layout" name="in_app_notification_format1_layout">false</item>
+    <item type="layout" name="prod_list_filters_layout">false</item>
+    <item type="layout" name="productlist_offer_list_item_layout">false</item>
+    <item type="layout" name="simple_dropdown_item">false</item>
+    <item type="layout" name="support_simple_spinner_dropdown_item">false</item>
+</resources>

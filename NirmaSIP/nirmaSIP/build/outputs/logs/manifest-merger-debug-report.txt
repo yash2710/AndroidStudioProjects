@@ -1,0 +1,243 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:6:5
+	xmlns:tools
+		ADDED from AndroidManifest.xml:3:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:5:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:8:5
+MERGED from NirmaSIP:androidngnstack:unspecified:11:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:9:5
+MERGED from NirmaSIP:androidngnstack:unspecified:12:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:10:5
+MERGED from NirmaSIP:androidngnstack:unspecified:13:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from AndroidManifest.xml:11:5
+MERGED from NirmaSIP:androidngnstack:unspecified:14:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from AndroidManifest.xml:12:5
+MERGED from NirmaSIP:androidngnstack:unspecified:15:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:13:5
+MERGED from NirmaSIP:androidngnstack:unspecified:16:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:14:5
+MERGED from NirmaSIP:androidngnstack:unspecified:17:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:15:5
+MERGED from NirmaSIP:androidngnstack:unspecified:18:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:16:5
+MERGED from NirmaSIP:androidngnstack:unspecified:19:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from AndroidManifest.xml:17:5
+MERGED from NirmaSIP:androidngnstack:unspecified:20:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:18:5
+MERGED from NirmaSIP:androidngnstack:unspecified:21:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:19:5
+MERGED from NirmaSIP:androidngnstack:unspecified:22:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:20:5
+MERGED from NirmaSIP:androidngnstack:unspecified:23:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from AndroidManifest.xml:21:5
+MERGED from NirmaSIP:androidngnstack:unspecified:24:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:22:5
+MERGED from NirmaSIP:androidngnstack:unspecified:25:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from AndroidManifest.xml:23:5
+MERGED from NirmaSIP:androidngnstack:unspecified:26:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:24:5
+MERGED from NirmaSIP:androidngnstack:unspecified:27:5
+	android:name
+		ADDED from AndroidManifest.xml:24:22
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from AndroidManifest.xml:25:5
+MERGED from NirmaSIP:androidngnstack:unspecified:28:5
+	android:name
+		ADDED from AndroidManifest.xml:25:22
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:26:5
+MERGED from NirmaSIP:androidngnstack:unspecified:29:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+uses-permission#android.permission.RAISED_THREAD_PRIORITY
+ADDED from AndroidManifest.xml:27:5
+MERGED from NirmaSIP:androidngnstack:unspecified:30:5
+	android:name
+		ADDED from AndroidManifest.xml:27:22
+uses-sdk
+ADDED from AndroidManifest.xml:29:5
+MERGED from NirmaSIP:androidngnstack:unspecified:7:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:appcompat-v7:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+MERGED from com.android.support:cardview-v7:22.2.0:20:5
+MERGED from com.android.support:recyclerview-v7:22.2.0:20:5
+MERGED from com.android.support:support-v4:22.2.0:20:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:31:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:30:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:34:5
+MERGED from NirmaSIP:androidngnstack:unspecified:42:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.android.support:appcompat-v7:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+MERGED from com.android.support:cardview-v7:22.2.0:22:5
+MERGED from com.android.support:support-v4:22.2.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:38:9
+	android:hardwareAccelerated
+		ADDED from NirmaSIP:androidngnstack:unspecified:44:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:36:9
+	android:icon
+		ADDED from AndroidManifest.xml:37:9
+		REJECTED from NirmaSIP:androidngnstack:unspecified:45:9
+	android:theme
+		ADDED from AndroidManifest.xml:39:9
+	tools:replace
+		ADDED from AndroidManifest.xml:40:9
+	android:name
+		ADDED from AndroidManifest.xml:35:9
+activity#yash.mp1.itnusip.MainActivity
+ADDED from AndroidManifest.xml:41:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:44:13
+	android:label
+		ADDED from AndroidManifest.xml:43:13
+	android:name
+		ADDED from AndroidManifest.xml:42:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:45:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:46:17
+	android:name
+		ADDED from AndroidManifest.xml:46:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:48:17
+	android:name
+		ADDED from AndroidManifest.xml:48:27
+service#yash.mp1.itnusip.receiver.SIPService
+ADDED from AndroidManifest.xml:51:9
+	android:name
+		ADDED from AndroidManifest.xml:51:18
+receiver#yash.mp1.itnusip.receiver.RegistrationBroadcastReceiver
+ADDED from AndroidManifest.xml:59:9
+	android:label
+		ADDED from AndroidManifest.xml:61:13
+	android:name
+		ADDED from AndroidManifest.xml:60:13
+intent-filter#org.doubango.ngn.events.NgnInviteEventArgs.ACTION_INVITE_EVENT+org.doubango.ngn.events.NgnRegistrationEventArgs.ACTION_REGISTRATION_CHANGED
+ADDED from AndroidManifest.xml:62:13
+action#org.doubango.ngn.events.NgnRegistrationEventArgs.ACTION_REGISTRATION_CHANGED
+ADDED from AndroidManifest.xml:63:17
+	android:name
+		ADDED from AndroidManifest.xml:63:25
+action#org.doubango.ngn.events.NgnInviteEventArgs.ACTION_INVITE_EVENT
+ADDED from AndroidManifest.xml:64:17
+	android:name
+		ADDED from AndroidManifest.xml:64:25
+activity#yash.mp1.itnusip.DialCallActivity
+ADDED from AndroidManifest.xml:68:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:70:13
+	android:name
+		ADDED from AndroidManifest.xml:69:13
+activity#yash.mp1.itnusip.SipSettings
+ADDED from AndroidManifest.xml:71:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:73:13
+	android:name
+		ADDED from AndroidManifest.xml:72:13
+activity#yash.mp1.itnusip.ReceiveCallActivity
+ADDED from AndroidManifest.xml:74:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:78:13
+	android:label
+		ADDED from AndroidManifest.xml:76:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:75:13
+uses-feature#0x00020000
+ADDED from NirmaSIP:androidngnstack:unspecified:32:5
+	android:glEsVersion
+		ADDED from NirmaSIP:androidngnstack:unspecified:33:9
+	android:required
+		ADDED from NirmaSIP:androidngnstack:unspecified:34:9
+uses-feature#android.hardware.camera
+ADDED from NirmaSIP:androidngnstack:unspecified:35:5
+	android:required
+		ADDED from NirmaSIP:androidngnstack:unspecified:37:9
+	android:name
+		ADDED from NirmaSIP:androidngnstack:unspecified:36:9
+uses-feature#android.hardware.audio.low_latency
+ADDED from NirmaSIP:androidngnstack:unspecified:38:5
+	android:required
+		ADDED from NirmaSIP:androidngnstack:unspecified:40:9
+	android:name
+		ADDED from NirmaSIP:androidngnstack:unspecified:39:9
+string
+ADDED from NirmaSIP:androidngnstack:unspecified:47:9
+	name
+		ADDED from NirmaSIP:androidngnstack:unspecified:47:17
+service#org.doubango.ngn.NgnNativeService
+ADDED from NirmaSIP:androidngnstack:unspecified:50:9
+	android:name
+		ADDED from NirmaSIP:androidngnstack:unspecified:50:18

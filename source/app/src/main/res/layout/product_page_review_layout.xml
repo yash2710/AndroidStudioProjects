@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip">
+            <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="14.0sp" android:textColor="@color/grey" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="by" android:layout_weight="10.0" />
+            <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/grey" android:ellipsize="end" android:id="@id/user_name" android:paddingLeft="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="75.0" />
+            <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/grey" android:gravity="right" android:id="@id/date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="60.0" />
+        </LinearLayout>
+        <RatingBar android:id="@id/ratings" android:layout_width="wrap_content" android:layout_height="12.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:numStars="5" android:isIndicator="false" style="@style/smallerRatingBar" />
+        <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="11.0sp" android:textColor="@color/white" android:gravity="left|center" android:id="@id/certified_buyer" android:background="@drawable/certified_buyer" android:paddingLeft="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="Certified Buyer" />
+        <RelativeLayout android:id="@id/product_page_offers_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.flipkart.android.customviews.OfferExpandablePanel android:orientation="vertical" android:id="@id/expandable_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" app:animationDuration="250" app:collapsedHeight="70.0dip" app:content="@id/product_page_offers_content" app:handle="@id/read_more_option" app:showViewMore="true" app:clickListener="@id/review_expandable_listener">
+                <LinearLayout android:orientation="vertical" android:id="@id/review_expandable_listener" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/product_page_offers_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.flipkart.android.customviews.CustomRobotoMediumTextView android:textSize="12.0sp" android:textColor="@color/grey" android:id="@id/review_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" />
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="12.0sp" android:textColor="@color/grey" android:id="@id/review_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" />
+                            <View android:id="@id/spec_fading" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_alignParentBottom="true" android:alpha="0.4" android:layout_alignParentStart="true" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <com.flipkart.android.customviews.CustomRobotoRegularTextView android:gravity="right|center" android:layout_gravity="center_vertical" android:id="@id/read_more_option" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableRight="@drawable/downarrow" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ugc_yes_no_count_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+                    <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/grey" android:id="@id/yes_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                    <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/grey" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="out of" />
+                    <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/grey" android:id="@id/total_count" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/grey" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="found this review helpful" />
+                </LinearLayout>
+            </com.flipkart.android.customviews.OfferExpandablePanel>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

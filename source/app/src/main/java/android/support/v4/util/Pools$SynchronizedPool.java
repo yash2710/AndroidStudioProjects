@@ -1,0 +1,37 @@
+// Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.geocities.com/kpdus/jad.html
+// Decompiler options: braces fieldsfirst space lnc 
+
+package android.support.v4.util;
+
+
+public class  extends 
+{
+
+    private final Object mLock = new Object();
+
+    public Object acquire()
+    {
+        Object obj1;
+        synchronized (mLock)
+        {
+            obj1 = super.e();
+        }
+        return obj1;
+    }
+
+    public boolean release(Object obj)
+    {
+        boolean flag;
+        synchronized (mLock)
+        {
+            flag = super.e(obj);
+        }
+        return flag;
+    }
+
+    public (int i)
+    {
+        super(i);
+    }
+}

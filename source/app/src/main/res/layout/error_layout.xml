@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/error_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/error_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/connection_error" />
+        <TextView android:textSize="24.0sp" android:layout_gravity="center_horizontal" android:id="@id/error_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No Connection" />
+        <TextView android:textSize="14.0sp" android:layout_gravity="center_horizontal" android:id="@id/error_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please check your internet connection" />
+        <Button android:textSize="18.0sp" android:layout_gravity="center_horizontal" android:id="@id/try_again_button" android:tag="try_again" android:background="@drawable/yellow_rounded_corner" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="Refresh" />
+    </LinearLayout>
+</RelativeLayout>

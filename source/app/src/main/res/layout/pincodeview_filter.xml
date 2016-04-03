@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="85.0">
+            <com.flipkart.android.customviews.CustomRobotoMediumTextView android:textSize="14.0dip" android:textColor="#ff000000" android:id="@id/pincode_fieldtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Available at my pincode" />
+            <EditText android:id="@id/pincode_enter_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="number" />
+        </LinearLayout>
+        <RadioButton android:id="@id/pincode_selected" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="15.0" />
+    </LinearLayout>
+    <View android:background="#ff81817f" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+        <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="13.0dip" android:textColor="#ff363636" android:id="@id/all_fieldtext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="All Products" android:layout_weight="85.0" />
+        <RadioButton android:id="@id/all_selected" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="15.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\ADT latest\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-70c7b24c471d9676afca2549f3d56f95d0100fd6.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-e26f0c4c203c5afc8ac5e498f6ae9fe5afba5d2a.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\pre-dexed\debug\classes-01cde7a215bbc7158ff507153e0131170ede41e8.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\pre-dexed\debug\classes-b5e1dfdf4d982faac91d9eab761d5d67faf5d402.jar" />
+    </item>
+
+</items>

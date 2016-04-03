@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/product_page_enter_pincode_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/product_page_pincode_prompt_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="15.0sp" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/product_page_pincode_prompt_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Check Availability and Delivery Options" android:maxLines="1" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="10.0dip">
+            <com.flipkart.android.customviews.NewEditText android:id="@id/product_page_pincode_text" android:layout_width="0.0dip" android:layout_height="35.0dip" android:layout_weight="70.0" />
+            <Button android:textSize="@dimen/content_title_font_size" android:textColor="@color/white" android:id="@id/product_page_pincode_enter" android:tag="on_click_check_pincode" android:background="@drawable/button_black_selector_without_strokes" android:layout_width="0.0dip" android:layout_height="35.0dip" android:layout_marginLeft="5.0dip" android:text="Check" android:layout_weight="30.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

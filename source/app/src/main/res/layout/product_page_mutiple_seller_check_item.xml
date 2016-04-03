@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/more_seller_border" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/seller_name_layout" android:tag="open_particular_seller_page" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_weight="255.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="12.0sp" android:textColor="@color/grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Seller: " />
+                    <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/product_page_multiple_seller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <RatingBar android:id="@id/product_page_multiple_seller_ratings" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="12.0dip" android:layout_marginTop="2.0dip" android:numStars="5" android:isIndicator="true" style="@style/sellerRatingBar" />
+                    <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="12.0sp" android:textColor="@color/grey" android:id="@id/product_page_multiple_seller_total_ratings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text=" " />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/fbf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:gravity="center" android:id="@id/fbf_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delivered Through" />
+                    <com.android.volley.toolbox.NetworkImageView android:layout_gravity="center" android:id="@id/fbf_image" android:paddingLeft="5.0dip" android:layout_width="95.0dip" android:layout_height="20.0dip" />
+                </LinearLayout>
+                <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/product_page_multiple_seller_replacement_policy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            </LinearLayout>
+            <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/product_page_multiple_seller_buy_now" android:tag="all_filters" android:background="@drawable/button_orange_selector" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:clickable="true" android:layout_width="0.0px" android:layout_height="30.0dip" android:text="BUY NOW" android:layout_weight="85.0" />
+        </LinearLayout>
+        <View android:background="@color/divider_inner_content" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="14.0sp" android:textColor="@color/flipkart_price" android:id="@id/product_page_multiple_seller_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:text=" " />
+        <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="14.0sp" android:textColor="@color/black" android:id="@id/product_page_multiple_seller_shipping_charge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="Free home delivery" />
+        <View android:background="@color/divider_inner_content" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip">
+            <com.flipkart.android.customviews.CustomRobotoRegularTextView android:id="@id/product_page_multiple_seller_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="12.0sp" android:textColor="@color/grey" android:id="@id/product_page_multiple_seller_shipping_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text=" " />
+        </LinearLayout>
+        <com.flipkart.android.customviews.OfferExpandablePanel android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:animationDuration="250" app:collapsedHeight="25.0dip" app:content="@id/product_page_multiple_seller_offer_layout" app:handle="@id/product_page_multiple_seller_offer_read_more" app:showViewMore="false" app:clickListener="@id/product_page_multiple_seller_offer_layout">
+            <LinearLayout android:orientation="vertical" android:id="@id/product_page_multiple_seller_offer_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+                <View android:id="@id/product_page_multiple_seller_offer_divider" android:background="@color/divider_inner_content" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <com.flipkart.android.customviews.CustomRobotoRegularTextView android:gravity="right|center" android:layout_gravity="center_vertical" android:id="@id/product_page_multiple_seller_offer_read_more" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/offer_badge" android:drawableRight="@drawable/downarrow" android:drawablePadding="5.0dip" />
+            </LinearLayout>
+        </com.flipkart.android.customviews.OfferExpandablePanel>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/wishList_bottom_bar_layout" android:background="@drawable/product_page_bottom_bar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="53.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/content_title_font_size_buttons_prod_page" android:textColor="@color/grey" android:id="@id/wish_list_bottom_bar_save_wishList_button" android:tag="save_wishList" android:background="@drawable/button_white_selector_without_strokes" android:paddingLeft="15.0dip" android:paddingTop="12.0dip" android:paddingRight="15.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Save List" android:drawableTop="@drawable/save_icon" android:layout_weight="50.0" />
+    <View android:background="@color/divider_title_table" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <Button android:textSize="@dimen/content_title_font_size_buttons_prod_page" android:textColor="@color/grey" android:id="@id/wish_list_bottom_bar_clear_wishList_button" android:tag="clear_wishList" android:background="@drawable/button_white_selector_without_strokes" android:paddingLeft="15.0dip" android:paddingTop="12.0dip" android:paddingRight="15.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Clear List" android:drawableTop="@drawable/delete_icon" android:layout_weight="50.0" />
+</LinearLayout>

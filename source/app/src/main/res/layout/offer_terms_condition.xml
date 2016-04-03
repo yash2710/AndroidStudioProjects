@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="18.0dip" android:id="@id/title" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingTop="8.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <View android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <WebView android:id="@id/term_details" android:layout_width="fill_parent" android:layout_height="220.0dip" />
+    <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/continue_shopping" android:tag="continue_shop_termsdialog" android:background="@color/grey" android:paddingTop="8.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="Continue Shopping"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

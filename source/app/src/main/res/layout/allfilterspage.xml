@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" android:layout_below="@id/border">
+        <ScrollView android:background="#ff434343" android:scrollbars="vertical" android:layout_width="110.0dip" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/filters" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </ScrollView>
+        <ExpandableListView android:id="@id/more_filters_list" android:background="#fff6f4ee" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="5.0dip" android:divider="#ffe5e5e5" android:dividerHeight="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/sub_filter_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <EditText android:id="@id/search_filters" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Search" android:drawableLeft="@drawable/search_filter" android:drawableEnd="@drawable/filter_search_clear" />
+            <ListView android:id="@id/sub_filters_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/control_view" android:layout_width="fill_parent" android:layout_height="50.0dip" android:weightSum="1.0" android:layout_alignParentBottom="true">
+        <com.flipkart.android.customviews.CustomRobotoMediumTextView android:textSize="16.0dip" android:textColor="#ff4f4f4f" android:gravity="center" android:id="@id/clear_filters" android:tag="clear_filters" android:background="@drawable/textview_bottom" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="CLEAR FILTERS" android:layout_weight="0.5" />
+        <com.flipkart.android.customviews.CustomRobotoMediumTextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/apply_filters" android:tag="apply_filters" android:background="@drawable/button_orange_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="APPLY" android:layout_weight="0.5" />
+    </LinearLayout>
+</RelativeLayout>

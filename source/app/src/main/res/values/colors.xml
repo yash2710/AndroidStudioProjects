@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <item type="color" name="abc_search_url_text_pressed">@*android:color/black</item>
+    <item type="color" name="abc_search_url_text_selected">@*android:color/black</item>
+    <color name="app_bg">#ffd5cfca</color>
+    <color name="app_bg_card">#fff6f6f6</color>
+    <color name="background_tab_pressed">#6633b5e5</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff4189c7</color>
+    <color name="bucket_offer_title">#ff848484</color>
+    <color name="call_us_button_bg">#ff559114</color>
+    <color name="call_us_widget_bg">#fff2f3ed</color>
+    <color name="com_facebook_blue">#ff3b5998</color>
+    <color name="com_facebook_loginview_text_color">#ffffffff</color>
+    <color name="com_facebook_picker_search_bar_background">#fff5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#ffbcbdc2</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#ff000000</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#ffffffff</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#ffa6aed7</color>
+    <color name="coming_soon">#ffe87815</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <item type="color" name="common_signin_btn_dark_text_default">@*android:color/white</item>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <item type="color" name="common_signin_btn_dark_text_focused">@*android:color/white</item>
+    <item type="color" name="common_signin_btn_dark_text_pressed">@*android:color/white</item>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <item type="color" name="common_signin_btn_light_text_pressed">@*android:color/white</item>
+    <color name="contents_text">#ff000000</color>
+    <color name="continue_shopping_bg">#ff0a3151</color>
+    <color name="default_circle_indicator_fill_color">#ffffce26</color>
+    <color name="default_circle_indicator_page_color">#ffffffff</color>
+    <color name="default_circle_indicator_stroke_color">#aa000000</color>
+    <color name="default_line_indicator_selected_color">#ff33b5e5</color>
+    <color name="default_line_indicator_unselected_color">#ffbbbbbb</color>
+    <color name="default_title_indicator_footer_color">#ff33b5e5</color>
+    <color name="default_title_indicator_selected_color">#ffffffff</color>
+    <color name="default_title_indicator_text_color">#bbffffff</color>
+    <color name="default_underline_indicator_selected_color">#ff33b5e5</color>
+    <color name="divider">#ffdcdcdc</color>
+    <color name="divider_inner_content">#ffe4e4e4</color>
+    <color name="divider_title_table">#ffd8d8d8</color>
+    <color name="elv_btn_focused">#ff0099cc</color>
+    <color name="elv_btn_normal">#00000000</color>
+    <color name="elv_btn_pressed">#ff33b5e5</color>
+    <color name="elv_popup_bg_color">#ee666666</color>
+    <color name="elv_popup_text_color">#ffffffff</color>
+    <color name="elv_separator_color">#ffbbbbbb</color>
+    <color name="email_hint">#ff5e5e5e</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="fadeTextColor">#ff696969</color>
+    <color name="flipkart_price">#ffc12929</color>
+    <color name="green">#ff59a60c</color>
+    <color name="grey">#ff565656</color>
+    <color name="grey_bg">#ffe5e5e5</color>
+    <color name="in_app_notification_new_bg">#ff0071bc</color>
+    <color name="inner_title_divider">#ffffce26</color>
+    <color name="light_grey">#ff969696</color>
+    <color name="login_rounded_bg">#ff424242</color>
+    <color name="md__defaultBackground">#ffffffff</color>
+    <color name="new_launch_bg">#fff5f5ef</color>
+    <color name="overlay_bg">#b2000000</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="product_mrp_and_discount">#ff565656</color>
+    <color name="product_page_pullout_bg">#ffffffff</color>
+    <color name="product_rating">#ff484848</color>
+    <color name="product_title">#ff323232</color>
+    <color name="pullout_cat_bg_level_0">#00ffffff</color>
+    <color name="pullout_cat_bg_level_1">#00f0ede6</color>
+    <color name="pullout_divider_level_0">#ffdcdcdc</color>
+    <color name="pullout_divider_level_1">#ffdcdcdc</color>
+    <color name="red">#ffcf1b31</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="share_font">#ff323232</color>
+    <color name="sold_out">#d9f44e4e</color>
+    <color name="spec_table_title_bg">#ffe7e7e7</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="tab_divider_color">#ffb4b4b4</color>
+    <color name="tab_indicator_color">#ffff7800</color>
+    <color name="tag_color">#ff9f3030</color>
+    <color name="title">#ff323232</color>
+    <color name="title_with_subtitle_bg">#fff6f3f0</color>
+    <color name="transparent">#00000000</color>
+    <color name="view_more_bg">#ffece9e0</color>
+    <color name="view_more_text">#ff565656</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <item type="color" name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</item>
+    <item type="color" name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</item>
+    <item type="color" name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</item>
+    <item type="color" name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</item>
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_holo_dark">#ffbebebe</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#ff323232</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_hint_foreground_holo_dark">#ff808080</color>
+    <color name="wallet_hint_foreground_holo_light">#ff808080</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#ff0000ee</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#ffffc300</color>
+    <color name="yellow_bg">#ffe8b200</color>
+    <item type="color" name="vpi__dark_theme">false</item>
+    <item type="color" name="vpi__light_theme">false</item>
+</resources>

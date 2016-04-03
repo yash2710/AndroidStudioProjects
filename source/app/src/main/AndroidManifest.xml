@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="540300" android:versionName="3.0.2.1" android:installLocation="auto" package="com.flipkart.android"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+    <permission android:name="com.flipkart.app.ecom.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.flipkart.app.ecom.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="18" />
+    <application android:label="@string/app_name" android:icon="@drawable/flipkart_app_icon" android:name="com.flipkart.android.init.FlipkartApplication" android:allowBackup="true" android:hardwareAccelerated="true">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <activity android:theme="@style/Theme.SplashScreenStype" android:label="@string/app_name" android:name="com.flipkart.android.SplashActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.ActionBarStyledNoTitleBar" android:name="com.flipkart.android.activity.LoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:theme="@style/Theme.ActionBarStyledNoTitleBar" android:name="com.flipkart.android.activity.SignupActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.facebook.LoginActivity" />
+        <activity android:theme="@style/Theme.ActionBarStyledNoTitleBar" android:name="com.flipkart.android.activity.GoogleLoginWebActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@style/Theme.ActionBarStyled" android:label="@string/app_name" android:name="com.flipkart.android.activity.HomeFragmentHolderActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustPan">
+            <intent-filter>
+                <data android:scheme="flipkart" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.ActionBarStyledNoTitleBar" android:name="com.flipkart.android.activity.FilterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:theme="@style/Theme.ActionBarStyledNoTitleBar" android:name="com.flipkart.android.activity.BlockActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.crittercism.NotificationActivity" />
+        <receiver android:name="com.flipkart.android.widget.FlipkartAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+                <action android:name="com.flipkart.app.ecom.widget.FlipkartSearchWidgetProvider.ACTION_WIDGET_SEARCH" />
+                <action android:name="com.flipkart.app.ecom.widget.FlipkartSearchWidgetProvider.ACTION_WIDGET_LEFT" />
+                <action android:name="com.flipkart.app.ecom.widget.FlipkartSearchWidgetProvider.ACTION_WIDGET_RIGHT" />
+                <action android:name="com.flipkart.app.ecom.widget.FlipkartSearchWidgetProvider.ACTION_WIDGET_CENTER" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/search_widget_info" />
+        </receiver>
+        <receiver android:name="com.flipkart.android.notification.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.flipkart.app.ecom" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.flipkart.android.notification.GcmIntentService" />
+        <service android:name="com.flipkart.android.services.LocationService" />
+        <service android:name="com.flipkart.android.wearable.WearableService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.flipkart.android.notification.NotificationDeleteIntentReceiver">
+            <intent-filter>
+                <action android:name="notification_delete_action" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.flipkart.android.campaignmanager.ReferrerReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="ADX_FORWARD_REFERRAL.omniture" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.AdX.tag.AdXAppTracker" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+            <meta-data android:name="ADX_FORWARD_REFERRAL.omniture" android:value="com.flipkart.android.campaignmanager.ReferrerReceiver" />
+        </receiver>
+        <receiver android:name="com.flipkart.android.receiver.RukminiErrorReceiver">
+            <intent-filter>
+                <action android:name="com.flipkart.android.rukminierror" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="APP_NAME" android:value="com.flipkart.android" />
+        <meta-data android:name="ADX_CLIENT_ID" android:value="flipkart432014jo" />
+        <meta-data android:name="USEHTTPS" android:value="ON" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" />
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="3db1416161c65d979489740680a2aa966a71fad1" />
+        <meta-data android:name="com.google.android.wearable.beta.app" android:resource="@xml/wearable_app_desc" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.google.zxing.client.android.CaptureActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/preferences_name" android:name="com.google.zxing.client.android.PreferencesActivity" android:stateNotNeeded="true" />
+        <activity android:name="com.google.zxing.client.android.encode.EncodeActivity" android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.ENCODE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/x-vcard" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/sbc_name" android:name="com.google.zxing.client.android.book.SearchBookContentsActivity" android:stateNotNeeded="true" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SEARCH_BOOK_CONTENTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Light" android:name="com.google.zxing.client.android.share.ShareActivity" android:stateNotNeeded="true" android:screenOrientation="user">
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SHARE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/history_title" android:name="com.google.zxing.client.android.history.HistoryActivity" android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/bookmark_picker_name" android:name="com.google.zxing.client.android.share.BookmarkPickerActivity" android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_picker_name" android:name="com.google.zxing.client.android.share.AppPickerActivity" android:stateNotNeeded="true" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.zxing.client.android.HelpActivity" android:screenOrientation="user">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

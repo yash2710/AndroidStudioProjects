@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@*android:color/white" android:paddingTop="?actionBarSize" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/refineoptions" android:background="#ff434343" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <ExpandableListView android:id="@id/filter_cat_list_view" android:background="#fff6f4ee" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="5.0dip" android:divider="#ffe5e5e5" android:dividerHeight="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

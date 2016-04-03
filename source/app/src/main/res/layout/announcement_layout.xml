@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.volley.toolbox.NetworkImageView android:id="@id/announcement_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/announcement_arrow" android:layout_width="20.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="25.0dip" android:layout_toRightOf="@id/announcement_image" android:layout_centerVertical="true">
+        <com.flipkart.android.customviews.CustomRobotoCondensedBoldTextView android:textSize="18.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/announcement_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:contentDescription="announcement_title" />
+        <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/announcement_subTitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:contentDescription="announcement_subTitle" />
+    </LinearLayout>
+</RelativeLayout>

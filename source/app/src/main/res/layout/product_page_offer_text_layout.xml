@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="14.0sp" android:textColor="#ff565656" android:paddingLeft="@dimen/default_padding" android:paddingTop="5.0dip" android:paddingRight="@dimen/default_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Buy fashion products worth 1500 or more and get additional 15% off"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/generic_orange_selector" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="43.0dip" android:layout_height="fill_parent">
+        <ImageView android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cart" android:scaleType="center" android:layout_centerInParent="true" />
+        <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/cart_count" android:background="@drawable/cart_count_background_circle" android:focusable="false" android:focusableInTouchMode="false" android:visibility="invisible" android:clickable="false" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

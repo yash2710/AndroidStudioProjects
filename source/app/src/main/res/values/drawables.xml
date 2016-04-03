@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="button_orange_stoke_pressed">false</item>
+    <item type="drawable" name="button_orange_stoke_released">false</item>
+    <item type="drawable" name="com_facebook_button_blue">false</item>
+    <item type="drawable" name="com_facebook_button_blue_focused">false</item>
+    <item type="drawable" name="com_facebook_button_blue_normal">false</item>
+    <item type="drawable" name="com_facebook_button_blue_pressed">false</item>
+    <item type="drawable" name="com_facebook_inverse_icon">false</item>
+    <item type="drawable" name="com_facebook_picker_item_background">false</item>
+    <item type="drawable" name="custom_search_tag_border">false</item>
+    <item type="drawable" name="dot_grey_background">false</item>
+    <item type="drawable" name="edit_text_border">false</item>
+    <item type="drawable" name="elv_undo_btn_bg">false</item>
+    <item type="drawable" name="elv_undo_btn_bg_focused">false</item>
+    <item type="drawable" name="elv_undo_btn_bg_pressed">false</item>
+    <item type="drawable" name="header_offer_border">false</item>
+    <item type="drawable" name="offer_zone_bg">false</item>
+    <item type="drawable" name="pincode_edittext_border">false</item>
+    <item type="drawable" name="promotion_widget_rounded_corner">false</item>
+    <item type="drawable" name="promotions_widget_rounded_corner">false</item>
+    <item type="drawable" name="rounded_corner">false</item>
+    <item type="drawable" name="com_facebook_picker_default_separator_color">#33464c59</item>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MOS - CL101</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome to MOS Questions App</string>
+    <string name="title_section2">Theory</string>
+    <string name="title_section1">Numericals</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Numericals</item>
+        <item>Theory</item>
+    </string-array>
+
+    <string-array name="theory_ch1_titles">
+        <item>Bending Moment</item>
+        <item>BMD and SFD</item>
+    </string-array>
+
+    <string-array name="theory_ch1">
+        <item>A bending moment is the reaction induced in a structural element when an external force or moment is applied to the element causing the element to bend. The most common or simplest structural element subjected to bending moments is the beam</item>
+        <item>Shear and bending moment diagrams are analytical tools used in conjunction with structural analysis to help perform structural design by determining the value of shear force and bending moment at a given point of a structural element such as a beam</item>
+    </string-array>
+
+</resources>

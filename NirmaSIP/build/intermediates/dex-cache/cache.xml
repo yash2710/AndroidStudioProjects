@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\NirmaSIP\sendintent\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\sendintent\build\intermediates\pre-dexed\debug\classes-17c859ba54a9d0a67d469334c322aee4a838a66c.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\pre-dexed\debug\classes-989ccccd467396cc1a3386524aa0163cedf50f89.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\pre-dexed\debug\classes-677ba95cd9aac6a6b73881c7b3da7097c01fe02c.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\exploded-aar\NirmaSIP\androidngnstack\unspecified\libs\simple-xml-2.3.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f45c6f5dc9b45cd8de3554e75f6d4dda9b99ca28">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\pre-dexed\debug\simple-xml-2.3.4-563a5a25f786154d416ed892fbdf28cefa36dc9d.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\exploded-aar\NirmaSIP\androidngnstack\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0308f59703699422ce857218e271085509d735e5">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\pre-dexed\debug\classes-da9b9fa78d0ab690638202751eb2ac051a8aa367.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\pre-dexed\debug\classes-a54854273ed9d4a54aee60a796de56f15cbbbd44.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\libs\volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\pre-dexed\debug\volley-a350e9905486ccd2c71d7d5c4d2042a10f2552f5.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\pre-dexed\debug\classes-16093ce751850fbd8b02d036f5f7aebef8142349.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-c437c38f11c16647b9dfca78d433beb77301e9df.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\NirmaSIP\sendintent\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\sendintent\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-85098489f31309dd7fa60a759fdf6814cb23775a.jar" />
+    </item>
+    <item
+        jar="E:\ADT latest\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\nirmaSIP\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-177070d956daea97fb0db446ec0cdcf27ef01ca7.jar" />
+    </item>
+    <item
+        jar="D:\Workspaces\AndroidstudioProjects\NirmaSIP\sendintent\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="D:\Workspaces\AndroidstudioProjects\NirmaSIP\sendintent\build\intermediates\pre-dexed\debug\classes-7c691f68b2dbed660e2a17cdd8646f7d6498d92c.jar" />
+    </item>
+
+</items>

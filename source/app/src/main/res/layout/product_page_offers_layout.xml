@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/product_page_offers_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.flipkart.android.customviews.CustomRobotoMediumTextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/product_offers" android:paddingLeft="0.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="0.0dip" android:text="OFFERS" />
+    <com.flipkart.android.customviews.OfferExpandablePanel android:orientation="vertical" android:id="@id/product_page_offers_expandable" android:tag="product_page_offers" android:layout_width="fill_parent" android:layout_height="wrap_content" app:animationDuration="250" app:collapsedHeight="50.0dip" app:content="@id/product_page_offers_content" app:handle="@id/read_more_option" app:showViewMore="false" app:clickListener="@id/offers_listner">
+        <LinearLayout android:orientation="vertical" android:id="@id/offers_listner" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/product_page_offers_content" android:paddingLeft="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="@dimen/content_title_font_size" android:textStyle="bold" android:textColor="@color/view_more_text" android:gravity="right" android:id="@id/read_more_option" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableRight="@drawable/close_close" android:drawablePadding="5.0dip" />
+        </LinearLayout>
+    </com.flipkart.android.customviews.OfferExpandablePanel>
+    <View android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

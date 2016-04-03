@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidngnstack/androidngnstack.iml" filepath="$PROJECT_DIR$/androidngnstack/androidngnstack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iMSDroid/iMSDroid.iml" filepath="$PROJECT_DIR$/iMSDroid/iMSDroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imsdroid.iml" filepath="$PROJECT_DIR$/imsdroid.iml" />
+    </modules>
+  </component>
+</project>
+

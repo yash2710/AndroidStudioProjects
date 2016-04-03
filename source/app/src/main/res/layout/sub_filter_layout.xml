@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+            <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="22.0sp" android:textColor="@color/black" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:singleLine="true" android:layout_weight="70.0" />
+            <Button android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/clear_all_button" android:background="@drawable/button_white_selector_without_strokes" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="38.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:text="Clear All" android:layout_weight="30.0" />
+        </LinearLayout>
+        <View android:background="@color/inner_title_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="5.0dip" />
+        <ListView android:id="@id/filters_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="63.0dip" android:divider="#ffe5e5e5" android:dividerHeight="1.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/cancel_button" android:background="@drawable/button_white_selector_without_strokes" android:clickable="true" android:layout_width="0.0dip" android:layout_height="43.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:text="Cancel" android:layout_weight="25.0" />
+        <Button android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/apply_button" android:tag="all_filters" android:background="@drawable/button_black_selector_without_strokes" android:clickable="true" android:layout_width="0.0dip" android:layout_height="43.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:text="Done" android:layout_weight="25.0" />
+    </LinearLayout>
+</RelativeLayout>

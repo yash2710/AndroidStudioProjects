@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/elv_popup_bg" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/elv_popup_text_color" android:ellipsize="end" android:id="@id/text" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    <View android:background="@color/elv_separator_color" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="15.0dip" android:layout_weight="0.0" />
+    <Button android:textColor="@color/elv_popup_text_color" android:id="@id/undo" android:background="@drawable/generic_orange_selector" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/elv_ic_action_undo" android:layout_weight="0.0" />
+</LinearLayout>

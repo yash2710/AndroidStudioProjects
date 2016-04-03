@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="13.0sp" android:textColor="@color/grey" android:gravity="right|center" android:id="@id/product_list_group_text" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="ALL RESULTS" android:drawablePadding="7.0dip" android:contentDescription="product_list_filter_group_text" />
+    <View android:id="@id/product_list_group_divider" android:background="@color/divider_title_table" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

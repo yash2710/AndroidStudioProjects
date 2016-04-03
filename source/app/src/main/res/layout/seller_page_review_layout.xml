@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/product_page_border" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip">
+            <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="14.0sp" android:textColor="@color/grey" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="by" android:layout_weight="10.0" />
+            <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/grey" android:ellipsize="end" android:id="@id/user_name" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="75.0" />
+            <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/grey" android:gravity="right" android:id="@id/date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="72.0" />
+        </LinearLayout>
+        <RatingBar android:layout_gravity="center_vertical" android:id="@id/ratings" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="12.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="4.0dip" android:numStars="5" android:isIndicator="true" style="@style/sellerRatingBar" />
+        <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="12.0sp" android:textColor="@color/grey" android:id="@id/review_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

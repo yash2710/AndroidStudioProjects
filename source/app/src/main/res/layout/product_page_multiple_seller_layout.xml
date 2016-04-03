@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipkart.android.customviews.ScrollViewFixed android:background="#ffffffff" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/product_page_title_layout" layout="@layout/product_page_title_layout" />
+        <LinearLayout android:orientation="vertical" android:id="@id/multiple_seller_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_below="@id/product_page_title_layout">
+            <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="18.0sp" android:textColor="@color/black" android:gravity="left|center" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="More Sellers" />
+            <View android:background="@color/inner_title_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/multiple_seller_enter_pincode_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_padding">
+                <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/title" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="For sellers delivering at your location" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/multiple_seller_pincode_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                    <EditText android:textSize="@dimen/content_title_font_size" android:textColor="@color/email_hint" android:id="@id/multiple_seller_pincode_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="Enter PinCode" android:singleLine="true" android:layout_weight="75.0" android:inputType="number" android:imeOptions="actionDone" />
+                    <Button android:textSize="@dimen/content_title_font_size" android:textColor="@*android:color/white" android:id="@id/multiple_seller_pincode_enter" android:tag="on_click_check_pincode" android:background="@drawable/button_black_released_without_strokes" android:clickable="true" android:layout_width="0.0dip" android:layout_height="28.0dip" android:text="Check" android:layout_weight="25.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/multiple_seller_page_delivery_status_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/default_padding" android:layout_marginTop="3.0dip">
+                <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="@dimen/content_title_font_size" android:textColor="@color/title" android:layout_gravity="center_vertical" android:id="@id/multiple_seller_page_change_pin" android:tag="on_click_change_pin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="Delivery Status for these sellers:" android:drawablePadding="5.0dip" />
+                <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="@dimen/content_title_font_size" android:textColor="@color/blue" android:layout_gravity="center_vertical" android:id="@id/change_pin_image" android:tag="on_click_change_pin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="Change " android:drawableRight="@drawable/change_icon" android:drawablePadding="5.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/seller_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_below="@id/multiple_seller_layout" />
+    </RelativeLayout>
+</com.flipkart.android.customviews.ScrollViewFixed>

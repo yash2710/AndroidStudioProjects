@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="com_facebook_button_blue_focused">false</item>
+    <item type="drawable" name="com_facebook_button_blue_normal">false</item>
+    <item type="drawable" name="com_facebook_button_blue_pressed">false</item>
+    <item type="drawable" name="com_facebook_inverse_icon">false</item>
+    <item type="drawable" name="edit_text_normal">false</item>
+    <item type="drawable" name="edit_text_pressed">false</item>
+    <item type="drawable" name="ff_logo_pp">false</item>
+    <item type="drawable" name="ic_launcher">false</item>
+    <item type="drawable" name="leftshadow">false</item>
+    <item type="drawable" name="secondory_shadow">false</item>
+    <item type="drawable" name="drawer_shadow">false</item>
+    <item type="drawable" name="powered_by_google_dark">false</item>
+    <item type="drawable" name="powered_by_google_light">false</item>
+    <item type="drawable" name="freebie">false</item>
+    <item type="drawable" name="wishlist1">false</item>
+</resources>

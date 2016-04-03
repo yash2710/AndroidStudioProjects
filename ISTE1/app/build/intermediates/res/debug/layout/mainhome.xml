@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="WELCOME TO\nOfficial App Of\nISTE-NIRMA Chapter "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/darker_gray"
+        android:textColorHint="#FF0000"
+        android:textSize="25dp" />
+
+</RelativeLayout><!-- From: file:/D:/Workspaces/AndroidstudioProjects/ISTE1/app/src/main/res/layout/mainhome.xml -->

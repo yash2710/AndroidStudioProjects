@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/null_result_layout" android:background="@color/white" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:layout_gravity="center_vertical" android:id="@id/null_display_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No Matching Products Found" />
+    <Button android:textSize="12.0sp" android:textColor="@*android:color/white" android:layout_gravity="center_vertical" android:id="@id/continue_shopping" android:background="@color/continue_shopping_bg" android:padding="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="10.0dip" android:text="Continue Shopping" />
+</LinearLayout>

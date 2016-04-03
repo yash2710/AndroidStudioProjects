@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/null_result_layout" android:background="#ffeeebe3" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@*android:color/black" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sorry, no result found" />
+    <TextView android:textSize="14.0sp" android:textColor="@*android:color/black" android:id="@id/wrong_query_message" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="We couldn't find anything that matches" />
+    <TextView android:textSize="16.0sp" android:textColor="@*android:color/black" android:id="@id/search_layout_title" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please try one of the following" />
+    <TextView android:textSize="14.0sp" android:textColor="@*android:color/black" android:id="@id/search_suggestions" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1. Check the spelling \n2.Try different search terms" />
+    <LinearLayout android:orientation="vertical" android:id="@id/search_again_layout" android:tag="open_search_page" android:background="@drawable/generic_orange_selector" android:padding="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@*android:color/black" android:id="@id/search_text" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Search again" android:drawableLeft="@drawable/search_icon" android:drawablePadding="10.0dip" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/text_input" android:scaleType="fitXY" />
+    </LinearLayout>
+</LinearLayout>

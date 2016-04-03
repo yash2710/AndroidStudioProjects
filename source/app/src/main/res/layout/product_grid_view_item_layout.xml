@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="220.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/loading_progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="75.0dip" android:layout_marginBottom="75.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/product_grid_details_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+        <com.android.volley.toolbox.NetworkImageView android:id="@id/product_grid_view_image" android:padding="5.0dip" android:layout_width="130.0dip" android:layout_height="177.0dip" android:scaleType="fitCenter" />
+        <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="16.0sp" android:textColor="@color/title" android:gravity="left" android:id="@id/product_grid_view_main_title" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="130.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+        <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="16.0sp" android:textColor="@color/flipkart_price" android:gravity="left" android:id="@id/product_grid_view_price" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="130.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:gravity="left" android:id="@id/product_grid_view_mrp_layout" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="130.0dip" android:layout_height="wrap_content">
+            <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="14.0sp" android:textColor="@color/product_mrp_and_discount" android:gravity="left" android:id="@id/product_grid_view_mrp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <com.flipkart.android.customviews.CustomRobotoLightTextView android:textSize="14.0sp" android:textColor="@color/product_mrp_and_discount" android:gravity="left" android:id="@id/product_grid_view_discount" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

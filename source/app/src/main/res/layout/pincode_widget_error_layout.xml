@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="#ff434343" android:layout_width="fill_parent" android:layout_height="60.0dip" android:alpha="0.85"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.flipkart.android.customviews.CustomRobotoRegularTextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/notfound" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:text="We do not deliver at" android:drawablePadding="5.0dip" android:drawableStart="@drawable/erroricon" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/change_pin" android:tag="change_pincode" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:src="@drawable/change_pincode" />
+</LinearLayout>

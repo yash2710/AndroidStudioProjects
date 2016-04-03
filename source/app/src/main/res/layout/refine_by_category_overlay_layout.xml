@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/overlay_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.flipkart.android.customviews.CustomRobotoCondensedTextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_gravity="top|left|center" android:id="@id/refine_cuetip_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="130.0dip" android:layout_marginRight="5.0dip" android:text="choose a\n sub-category\n to filter" android:drawableTop="@drawable/view_change_subcategory" />
+</FrameLayout>

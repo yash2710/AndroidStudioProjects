@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:name="SIP Username"
+        android:defaultValue=""
+        android:key="namePref"
+        android:summary="Username for your SIP Account"
+        android:title="Enter Username"
+        android:inputType="number"/>
+
+    <EditTextPreference
+        android:name="SIP Domain"
+        android:defaultValue=""
+        android:key="domainPref"
+        android:summary="Domain for your SIP Account"
+        android:title="Enter Domain"
+        android:inputType="text"/>
+
+    <EditTextPreference
+        android:name="SIP Password"
+        android:defaultValue=""
+        android:key="passPref"
+        android:summary="Password for your SIP Account"
+        android:title="Enter Password"
+        android:inputType="textPassword"/>
+
+</PreferenceScreen><!-- From: file:/D:/Workspaces/AndroidstudioProjects/NirmaSIP/nirmaSIP/src/main/res/xml/preferences.xml -->

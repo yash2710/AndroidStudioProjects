@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/contentFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="left" android:id="@id/menuFrameLayout" android:background="#ffffffff" android:layout_width="290.0dip" android:layout_height="fill_parent" />
+    </android.support.v4.widget.DrawerLayout>
+    <ProgressBar android:id="@id/refreshingProgressBar" android:background="#ff000000" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginBottom="0.0dip" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/progress_indeterminate_horizontal" android:contentDescription="Loading..." android:overScrollMode="never" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <View android:id="@id/action_bar_border" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</RelativeLayout>

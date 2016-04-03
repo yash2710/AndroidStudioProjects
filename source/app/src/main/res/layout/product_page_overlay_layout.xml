@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/overlay_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:gravity="left" android:layout_gravity="top|left|center" android:id="@id/product_page_cue_tips_pullout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="125.0dip" android:text="View other products\nfrom the product list" android:drawableTop="@drawable/cue_tips_pullout" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:layout_gravity="bottom|right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="100.0dip" android:text="Swipe between\nproducts" android:drawableTop="@drawable/cue_tips_swipe" android:contentDescription="Swipe_between_cue_tip" />
+</FrameLayout>

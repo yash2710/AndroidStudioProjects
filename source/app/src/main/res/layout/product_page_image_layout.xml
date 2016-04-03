@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/product_page_image_layout" android:background="@color/white" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="290.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/product_page_image_layout_image_view_layout" android:tag="open_gallery_view" android:padding="@dimen/default_padding" android:layout_width="fill_parent" android:layout_height="245.0dip">
+        <com.android.volley.toolbox.NetworkImageView android:id="@id/product_page_image_layout_image_view" android:paddingTop="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/product_page_image_layout_offer_details" android:tag="on_click_go_to_product_page_offers_layout" android:background="@drawable/generic_orange_selector" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/default_padding" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <com.android.volley.toolbox.NetworkImageView android:id="@id/product_page_product_offer_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/offer_badge" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/product_page_image_thumbnail_layout" android:background="@color/white" android:paddingLeft="5.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/product_page_image_layout_image_view_layout" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/button_black_inner_shadow_released" android:top="0.0dip" />
+    <item android:drawable="@drawable/button_black_gradient_released" android:top="2.0dip" />
+    <item android:drawable="@drawable/button_black_stoke_released" android:top="0.0dip" />
+</layer-list>

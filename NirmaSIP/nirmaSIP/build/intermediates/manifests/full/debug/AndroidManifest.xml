@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yash.mp1.itnusip"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.audio.low_latency"
+        android:required="false" />
+
+    <application
+        android:name="org.doubango.ngn.NgnApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="yash.mp1.itnusip.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="yash.mp1.itnusip.receiver.SIPService" />
+        <!-- <receiver -->
+        <!-- android:name=".receiver.CallStateReceiver" -->
+        <!-- android:label="Call Receiver"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="org.doubango.ngn.events.NgnInviteEventArgs.ACTION_INVITE_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <receiver
+            android:name="yash.mp1.itnusip.receiver.RegistrationBroadcastReceiver"
+            android:label="Registration Receiver" >
+            <intent-filter>
+                <action android:name="org.doubango.ngn.events.NgnRegistrationEventArgs.ACTION_REGISTRATION_CHANGED" />
+                <action android:name="org.doubango.ngn.events.NgnInviteEventArgs.ACTION_INVITE_EVENT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="yash.mp1.itnusip.DialCallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="yash.mp1.itnusip.SipSettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="yash.mp1.itnusip.ReceiveCallActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+
+        <string name="doubango_revision" >1247
+        </string>
+
+        <service android:name="org.doubango.ngn.NgnNativeService" />
+    </application>
+
+</manifest>

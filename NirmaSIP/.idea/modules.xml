@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NirmaSIP.iml" filepath="$PROJECT_DIR$/NirmaSIP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidngnstack/androidngnstack.iml" filepath="$PROJECT_DIR$/androidngnstack/androidngnstack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nirmaSIP/nirmaSIP.iml" filepath="$PROJECT_DIR$/nirmaSIP/nirmaSIP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sendintent/sendintent.iml" filepath="$PROJECT_DIR$/sendintent/sendintent.iml" />
+    </modules>
+  </component>
+</project>
+

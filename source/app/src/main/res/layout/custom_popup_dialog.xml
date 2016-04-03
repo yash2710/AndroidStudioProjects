@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/offer_background_grey_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <com.android.volley.toolbox.NetworkImageView android:layout_gravity="center" android:id="@id/title_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/default_image" />
+        <com.flipkart.android.customviews.CustomRobotoCondensedBoldTextView android:textSize="18.0dip" android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" />
+    </LinearLayout>
+    <View android:background="@drawable/button_orange_selector" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <WebView android:id="@id/term_details" android:layout_width="fill_parent" android:layout_height="220.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/two_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+        <Button android:textSize="13.0sp" android:textColor="@*android:color/black" android:id="@id/first_button" android:background="#ffe6e6e6" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:layout_weight="50.0" />
+        <Button android:textSize="13.0sp" android:textColor="@*android:color/white" android:id="@id/second_button" android:background="@drawable/button_orange_selector" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="20.0dip" android:layout_weight="50.0" />
+    </LinearLayout>
+</LinearLayout>

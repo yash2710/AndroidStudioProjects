@@ -1,0 +1,5 @@
+D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\classes\debug
+D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-70c7b24c471d9676afca2549f3d56f95d0100fd6.jar
+D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-e26f0c4c203c5afc8ac5e498f6ae9fe5afba5d2a.jar
+D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\pre-dexed\debug\classes-b5e1dfdf4d982faac91d9eab761d5d67faf5d402.jar
+D:\Workspaces\AndroidstudioProjects\MOS-CL101\app\build\intermediates\pre-dexed\debug\classes-01cde7a215bbc7158ff507153e0131170ede41e8.jar

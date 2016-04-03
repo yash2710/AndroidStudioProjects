@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/splash_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/progressbar_loading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="100.0dip" android:layout_weight="0.53">
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/splash_screen_progressBar" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminateDrawable="@drawable/splash_screen_loader" />
+    </LinearLayout>
+</LinearLayout>
